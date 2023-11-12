@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="cart img.css">
+</head>
+<body>
+    <div class="cart-container">
+        <h1>Shopping Cart</h1>
+        <div class="products">
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/71dcPsygRhL._SX679_.jpg" alt="MSI Raider GE68HX">
+                <h2>MSI Raider GE68HX</h2>
+                <p>Price: ₹2,49,897.00</p>
+                <button class="add-to-cart" data-name="MSI Raider GE68HX" data-price="249897.00">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/61cgS33eaRL._SL1500_.jpg" alt="MSI Thin GF63">
+                <h2>MSI Thin GF63</h2>
+                <p>Price: ₹ 57,990</p>
+                <button class="add-to-cart" data-name="MSI Thin GF63" data-price=" 57990.00">Add to Cart</button>
+            </div>
+            
+            <div class="product">
+                <img src="https://m.media-amazon.com/images/I/71cRA3lD-8L._SL1500_.jpg" alt="MSI Sword 15 A12VF">
+                <h2>MSI Sword 15 A12VF</h2>
+                <p>Price: ₹1,02,990</p>
+                <button class="add-to-cart" data-name="MSI Sword 15 A12VF" data-price="102990.00">Add to Cart</button>
+            </div>
+        
+
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/71vXD7cLZfL._SL1500_.jpg" alt="MSI Katana GF66 12UCOK">
+            <h2>MSI Katana GF66 12UCOK</h2>
+            <p>Price: ₹79,990</p>
+            <button class="add-to-cart" data-name="MSI Katana GF66 12UCOK" data-price="79990.00">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/61k6Khn6B0L._AC_SL1500_.jpg" alt="MSI Cyborg Gaming Laptop ">
+            <h2>MSI Cyborg Gaming Laptop</h2>
+            <p>Price:₹ 81,989</p>
+            <button class="add-to-cart" data-name="MSI Cyborg Gaming Laptop" data-price="81989.00">Add to Cart</button>
+        </div>
+
+
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/51T+fZg1gUL._AC_SL1000_.jpg" alt="MSI Stealth GS77 Gaming Laptop">
+            <h2>MSI Stealth GS77 Gaming Laptop</h2>
+            <p>Price:₹ 135,866</p>
+            <button class="add-to-cart" data-name="MSI Stealth GS77 Gaming Laptop" data-price="135866.00">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/71n7AWbXsmL._SL1500_.jpg" alt="MSI Pulse 17">
+            <h2>MSI Pulse 17</h2>
+            <p>Price: ₹1,79,990</p>
+            <button class="add-to-cart" data-name="MSI Pulse 17" data-price="179990.00">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/61PrdKgYaYL._SL1500_.jpg" alt="MSI Bravo 15 Gaming Laptop">
+            <h2>MSI Bravo 15 Gaming Laptop</h2>
+            <p>Price: ₹54,990</p>
+            <button class="add-to-cart" data-name="MSI Bravo 15 Gaming Laptop" data-price=" 54990.00">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/71yWBoj2kuL._SL1500_.jpg" alt="MSI Titan GT77 HX">
+            <h2>MSI Titan GT77 HX</h2>
+            <p>Price: ₹5,69,990</p>
+            <button class="add-to-cart" data-name="MSI Titan GT77 HX" data-price=" 569990.00">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/71vXD7cLZfL._SL1500_.jpg" alt="MSI Katana GF66">
+            <h2>MSI Katana GF66</h2>
+            <p>Price: ₹79,990</p>
+            <button class="add-to-cart" data-name="MSI Katana GF66" data-price="79990.00">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/61yN+3Z7WtL._SL1500_.jpg" alt="MSI Modern 14">
+            <h2>MSI Modern 14</h2>
+            <p>Price: ₹53,029</p>
+            <button class="add-to-cart" data-name="MSI Modern 14" data-price="53029.00">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://m.media-amazon.com/images/I/51VNknSIIWL.jpg" alt="MSI Ryzen 5 Hexa Core">
+            <h2>MSI Ryzen 5 Hexa Core</h2>
+            <p>Price: ₹41,990</p>
+            <button class="add-to-cart" data-name="MSI Ryzen 5 Hexa Core" data-price=" 41990.00">Add to Cart</button>
+        </div>
+
+
+
+        <div class="cart">
+            <h2>Cart</h2>
+            <ul id="cart-list"></ul>
+            <div>Total: ₹<span id="cart-total">0.00</span></div>
+        </div>
+    </div>
+    <script src="bill.js"></script>
+    </div>
+</body>
+</html>

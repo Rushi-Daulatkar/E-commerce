@@ -1,0 +1,8 @@
+/* Set a maximum width and height for all images */
+img {
+    max-width: 100%; /* The image will not exceed the width of its container */
+    max-height: 100%; /* The image will not exceed the height of its container */
+    width: auto; /* Allow the image to scale proportionally */
+    height: auto; /* Allow the image to scale proportionally */
+  }
+  

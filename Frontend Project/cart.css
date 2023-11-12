@@ -1,0 +1,35 @@
+body 
+{
+    font-family: Arial, sans-serif;
+}
+
+.cart-container 
+{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #d73232;
+    border-radius: 10px;
+}
+
+.products .product, .cart ul
+ {
+    list-style: none;
+    padding: 0;
+}
+
+button.add-to-cart
+ {
+    cursor: pointer;
+}
+
+
+.cart span
+ {
+    font-weight: bold;
+}
+
+.cart-total 
+{
+    font-size: 20px;
+}

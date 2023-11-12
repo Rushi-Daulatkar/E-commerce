@@ -1,0 +1,18 @@
+/* Set a fixed size for all images */
+img {
+    width: 200px;
+    height: 150px;
+  }
+  
+  /* Or set a percentage size relative to the parent container */
+  img {
+    width: 50%;
+    height: 50%;
+  }
+  
+  /* If you want to make sure the images maintain their aspect ratio */
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
